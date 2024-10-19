@@ -6,7 +6,11 @@ body{
     font-size: 17px;
     text-align: center;
     color: #2d6ff7;
+    font-weight: bold;
+    font-style: italic;
+    line-height: 1.5em;
     text-shadow: 2px 2px 4px #fff;
+
 }
 i{
     color: yellow;
