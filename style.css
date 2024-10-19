@@ -1,0 +1,38 @@
+.buttons {
+  width: 150px;
+  height: 25px;
+  background-color: red;
+}
+body{
+  background-color: rgb(4, 6, 115);
+}
+p{
+  color: red;
+  text-shadow: -1px 10px 10px #000;
+  margin: 30px;
+}
+h1{
+  color: green;
+  text-shadow: -1px 10px 10px #000;
+  margin: 20px;
+}
+b{
+  color: gray;
+  margin: 20px;
+  text-shadow: -1px 10px 10px #000;
+}
+h2{
+  color: pink;
+  text-shadow: -1px 10px 10px #000;
+  margin: 30px;
+}
+li{
+  color: white;
+  text-shadow: -1px 2px 3px #000;
+}
+i{
+  color: yellow;
+}
+.vermelho{
+  color: #f33;
+}

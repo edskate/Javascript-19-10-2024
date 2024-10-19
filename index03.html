@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="ABC.css">
+</head>
+<body>
+ 
+<p id="demo"></p>
+<button onclick="gerarPdf()">gerar</button>
+
+<script>
+    document.getElementById('demo').innerHTML = '<p>This is color<p>';
+function gerarPdf(){
+    var doc = new jsPDF();
+    
+    doc.fromHTML('<h1>Gerar</h1>');
+
+    doc.save('celke.pdf');
+}
+</script>
+<br>
+<a href="index04.html"><em>Usando Buttons.</em></a>
+</body>
+</html>
